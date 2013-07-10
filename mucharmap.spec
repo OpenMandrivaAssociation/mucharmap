@@ -18,6 +18,8 @@ Source0:           http://pub.mate-desktop.org/releases/%{url_ver}/%{oname}-%{ve
  
 BuildRequires:  libxml2-python
 BuildRequires:  mate-common
+BuildRequires:  which
+BuildRequires:  xml2po
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig(dbus-glib-1)
 BuildRequires:  pkgconfig(mate-doc-utils)
