@@ -1,13 +1,12 @@
 %define url_ver    %(echo %{version}|cut -d. -f1,2)
 %define oname      mate-character-map
-%define name       mucharmap
 %define major      7
 %define libname    %mklibname %{name} %{major}
 %define develname  %mklibname -d %{name}
 %define gi_major   2.0
 %define girname    %mklibname %{name}-gir %{gi_major}
 
-Name:              %{name}
+Name:              mucharmap
 Version:           1.6.0
 Release:           1
 License:           GPLv2+ and LGPLv2+
@@ -81,8 +80,6 @@ NOCONFIGURE=1 ./autogen.sh
 
 %install
 %makeinstall_std
-
-find %{buildroot}%{_libdir} -type f -name '*.la' -delete -print
 
 %find_lang %{name} --all-name --with-gnome
 
