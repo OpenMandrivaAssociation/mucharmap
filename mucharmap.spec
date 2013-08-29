@@ -8,7 +8,7 @@
 
 Name:              mucharmap
 Version:           1.6.0
-Release:           1
+Release:           2
 License:           GPLv2+ and LGPLv2+
 Summary:           Unicode character map and font viewer for MATE
 Url:               http://mate-desktop.org
@@ -26,7 +26,7 @@ BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-2.0)
 BuildRequires:  pkgconfig(pygtk-2.0)
 
-Provides:       %oname = %version-%release
+%rename %{oname}
 
 %description
 Mucharmap is a Unicode/ISO 10646 character map and font viewer. It
