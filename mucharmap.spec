@@ -11,7 +11,7 @@ Version:           1.6.0
 Release:           2
 License:           GPLv2+ and LGPLv2+
 Summary:           Unicode character map and font viewer for MATE
-Url:               http://mate-desktop.org
+Url:               https://mate-desktop.org
 Group:             Publishing
 Source0:           http://pub.mate-desktop.org/releases/%{url_ver}/%{oname}-%{version}.tar.xz
  
