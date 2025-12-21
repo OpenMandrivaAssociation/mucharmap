@@ -15,6 +15,11 @@ Url:               https://mate-desktop.org
 Group:             Publishing
 Source0:           http://pub.mate-desktop.org/releases/%{url_ver}/%{oname}-%{version}.tar.xz
  
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  libxml2-python
 BuildRequires:  mate-common
 BuildRequires:  which
